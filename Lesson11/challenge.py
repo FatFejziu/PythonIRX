@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 from leson8.Person import person1
-from main import print_hi
+from main import print_h
 
 
 class Person(ABC):
