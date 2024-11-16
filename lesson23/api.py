@@ -10,12 +10,12 @@ def create_developer(dev:Developer):
     return {"Message":"Developer created","developer":dev}
 
 @app.post("/projects/")
-def create_developer(projekti:Product):
+def create_developer(projekti:Project):
     return {"Message":"Developer created","developer":projekti}
 
 @app.get("/projekt/")
 def get_projects():
-    shembullProjekt=Projekt(
+    shembullProjekt=Project(
     title="Sample",
     description="this is ......",
     languages=["PHP","JS"],
